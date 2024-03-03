@@ -1,0 +1,18 @@
+[[rwkv_cpp]]
+arch = "x86_64"
+git-tree-sha1 = "50541c37a6ad70e5803dcaeebde37a5e11b219e3"
+libc = "glibc"
+os = "linux"
+
+    [[rwkv_cpp.download]]
+    sha256 = "7559ab0cfc71204916a718061aa68340f589725ca5f86709faed2f583d4d344a"
+    url = "https://github.com/VaiTon/rwkv_cpp_jll.jl/releases/download/rwkv_cpp-v0.0.1+0/rwkv_cpp.v0.0.1.x86_64-linux-gnu.tar.gz"
+[[rwkv_cpp]]
+arch = "x86_64"
+git-tree-sha1 = "d931a38449652317a16f7c226577d9a3d09353bb"
+libc = "musl"
+os = "linux"
+
+    [[rwkv_cpp.download]]
+    sha256 = "948e8b1a8e1ce10a436080a3bed88211861844955d092b987768c314057fe54b"
+    url = "https://github.com/VaiTon/rwkv_cpp_jll.jl/releases/download/rwkv_cpp-v0.0.1+0/rwkv_cpp.v0.0.1.x86_64-linux-musl.tar.gz"
